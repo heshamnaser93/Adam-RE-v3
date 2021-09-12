@@ -1,0 +1,45 @@
+/*start contact*/
+.hero__form.v3 {
+    float: right;
+}
+/*end contact*/
+
+
+/*start popular cities*/
+.popular-place-wrap.v2 .single-place-content {
+    right: 25%;
+    left: auto;
+}
+/*end popular cities*/
+
+
+
+/*start of media queries*************/
+@media screen and (min-width: 992px) {
+    .value-calculator-section.v1:before {
+        right: auto;
+    }
+
+    .download-section .down-content {
+        right: -8vw;
+    }
+
+    .download-section .download-img-box {
+        left: -8vw;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .download-section .down-head {
+        text-align: right;
+        padding-right: 75px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .about-sec .img-box {
+        right: auto;
+        border-left: 0;
+    }
+}
+/*end of media queries*************/

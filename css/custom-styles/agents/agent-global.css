@@ -1,0 +1,151 @@
+/*start agents*/
+.agent-section {
+    margin-top: 100px;
+}
+
+.agent-details h3 {
+    font-weight: 600;
+    color: #6495FE;
+    padding: 0 10px;
+}
+
+.agent-details .big-line {
+    position: relative;
+    width: 200px;
+    margin: 10px;
+}
+
+.agent-details .sm-line {
+    position: absolute;
+    width: 30%;
+}
+
+#agent_info {
+    background-color: #EFF0F3;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 20px;
+}
+
+.sidebar-content-right .img-box img {
+    width: 275px;
+    height: 275px;
+}
+
+.address-list li {
+    width: 33.3333%;
+    display: inline-block;
+    padding: 0 10px;
+    color: #6495FE;
+    font-size: 14px;
+}
+
+.address-list li.itemFullWidth {
+    width: 100%;
+}
+
+.address-list li span {
+    width: auto;
+    color: #303030;
+    font-weight: bold;
+}
+
+.agent-details a.ques {
+    display: inline-block;
+    color: #37466F;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 10px 0;
+}
+
+.agent-details .btns-box {
+    padding: 10px;
+}
+
+.sidebar-content-right .btn.v8 {
+    display: inline-block;
+    width: 120px;
+    background-color: transparent;
+    color: #6495FE;
+    border: 1px solid #6495FE;
+    font-size: 16px;
+    padding: 5px;
+}
+.sidebar-content-right .btn.v8:hover {
+    background-color: #6495FE;
+    color: #fff;
+    border: 1px solid #6495FE;
+}
+/*end agents*/
+
+
+/*start filtering*/
+.filtering-section,
+.listing-filter {
+    background-color: #EFF0F3 !important;
+}
+/*start filtering*/
+
+
+/*start media queries***********/
+@media screen and (max-width: 991px) {
+    .agent-section .container {
+        max-width: 960px;
+    }
+
+    .sidebar-content-right .btn.v8 {
+        width: 100px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar-content-right {
+        padding-top: 70px !important;
+    }
+
+    .sidebar-container {
+        display: none;
+    }
+
+    .agent-section #agent_info {
+        margin-bottom: 30px !important;
+    }
+
+    .sidebar-content-right .img-box {
+        margin-bottom: 20px;
+    }
+
+    .btns-box {
+        padding: 10px 25px 0;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .address-list li {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .sidebar-content-right {
+        padding-top: 0 !important;
+    }
+
+    .agent-section #agent_info {
+        padding: 15px 0;
+    }
+
+    .sidebar-content-right .img-box img {
+        width: 300px;
+        height: 275px;
+        display: block;
+        margin: auto;
+    }
+
+    .address-list li
+    {
+        width: 100%;
+    }
+}
+/*end media queries***********/

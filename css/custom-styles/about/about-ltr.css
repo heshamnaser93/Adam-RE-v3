@@ -1,0 +1,44 @@
+/*start team section*/
+.our-team .team-content {
+    left: 0;
+}
+
+.our-team .team-content:before {
+    left: -3%;
+    transform: rotate(15deg);
+}
+
+.our-team .team-content:after {
+    right: -3%;
+    transform: rotate(-15deg);
+}
+
+.our-team .title:before {
+    left: 33%;
+    transform: rotate(-74deg);
+}
+
+.our-team .title:after {
+    right: 33%;
+    transform: rotate(74deg);
+}
+/*end team section*/
+
+
+/*start media queries*/
+@media only screen and (max-width: 991px) {
+    .our-team .title:before {
+        left: 35%;
+    }
+
+    .our-team .title:after {
+        right: 35%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .swiper-pagination {
+        left: auto;
+    }
+}
+/*end media queries*/

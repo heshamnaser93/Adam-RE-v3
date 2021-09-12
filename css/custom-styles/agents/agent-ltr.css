@@ -1,0 +1,29 @@
+/*start agents*/
+.agent-details .sm-line {
+    left: 0;
+    right: auto;
+}
+
+.address-list li {
+    float: left;
+}
+
+.address-list li span {
+    padding-right: 20px;
+    float: left;
+}
+
+.sidebar-content-right .btn.v8 {
+    margin-right: 10px;
+}
+/*end agents*/
+
+
+
+/*start media queries***********/
+@media screen and (max-width: 575px) {
+    .agent-details .btns-box {
+        text-align: right;
+    }
+}
+/*end media queries***********/

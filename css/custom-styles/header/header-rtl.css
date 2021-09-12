@@ -1,0 +1,218 @@
+/*start header*/
+/*start header top*/
+.header-top-left ul li:first-child {
+    padding-right: 0;
+}
+
+.header-top-left ul li i {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.header-top-left ul li a {
+    direction: ltr;
+}
+
+.select-lang i {
+    left: -13px;
+}
+
+.select-lang .nav-link {
+    text-align: left;
+}
+
+.select-lang .dropdown-menu {
+    right: 20px;
+    left: auto !important;
+}
+
+.select-curr .select2-container--default .select2-selection--single .select2-selection__rendered {
+    text-align: left;
+}
+
+.select-curr .select2-container--default .select2-selection--single .select2-selection__rendered:after {
+    left: -15px;
+    right: auto;
+}
+
+.dropdown-toggle::after {
+    left: 7px;
+}
+
+/*select2*/
+.select2-container--default .select2-selection--single .select2-selection__rendered:after {
+    left: 50px;
+}
+
+.dropdown-menu.show:before {
+    right: 20px;
+}
+
+.select2-dropdown:before {
+    right: 30px;
+}
+/*select2*/
+/*end header top*/
+
+/*start menu*/
+.site-mobile-menu .site-nav-wrap a {
+    padding-right: 30px;
+}
+/*end menu*/
+
+/*start login-drop*/
+.login-btn .arr-down-icon {
+    margin-right: 5px;
+}
+
+.btn.v1 i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+/*end login-drop*/
+/*end header*/
+
+
+
+/*start media queries**********/
+@media only screen and (max-width: 1199px) {
+    .select-lang .dropdown-menu {
+        right: 50px;
+    }
+
+    .select2-container--open .select2-dropdown--below {
+        left: 25px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .select-lang .dropdown-menu {
+        right: 15px;
+    }
+
+    .select2-container--open .select2-dropdown--below {
+        left: -40px;
+    }
+
+    .site-mobile-menu .site-nav-wrap > li:last-child img {
+        margin-left: 10px;
+    }
+
+    .login-drop {
+        left: 55px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .select-lang i {
+        left: -10px;
+    }
+
+    .header-top-left ul li,
+    .header-top-left ul li:first-child {
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .header-top-left ul li:first-child {
+        padding-right: 30px;
+    }
+
+    .select-lang .dropdown-menu {
+        right: 35px;
+    }
+
+    .select2-container--open .select2-dropdown--below {
+        left: -20px;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .select-lang.dropdown{
+        padding-right: 0;
+        padding-left: 0 ;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .select-curr,
+    .select-lang {
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
+        float: left;
+    }
+
+    .menu-social-wrap .social-buttons li:first-child {
+        padding-left: 10px;
+    }
+
+    .select-curr .select2-container--default .select2-selection--single .select2-selection__rendered:after {
+        left: 25px;
+    }
+
+    .site-mobile-menu .select-lang .dropdown-menu {
+        right: 75px;
+    }
+
+    .header-dropdowns {
+        right: -115px;
+    }
+
+    .select2-dropdown:before {
+        right: 80px;
+    }
+
+    .select2-container--open .select2-dropdown--below {
+        left: 50px;
+    }
+
+    .site-navbar-wrap.v2 .mobile-bar span {
+        left: 30px;
+    }
+
+    .site-mobile-menu .header-dropdowns {
+        right: 0;
+        left: 0;
+    }
+
+    .header-bottom-contact li:nth-child(2) a{
+        direction: ltr !important;
+    }
+
+    .login-btn i:last-child {
+        left: 15px;
+        right: auto;
+    }
+
+    .header-bottom-contact li i{
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 379px) {
+    .site-mobile-menu .select-lang .dropdown-menu {
+        right: 60px;
+    }
+
+    .select2-container--open .select2-dropdown--below {
+        left: 10px;
+    }
+
+    .site-navbar-wrap.v2 .mobile-bar span {
+        left: -75px;
+    }
+
+    .site-mobile-menu-close.js-menu-toggle span {
+        margin-right: 0;
+    }
+
+    .site-mobile-menu .site-nav-wrap a {
+        padding-right: 15px;
+    }
+}
+/*end media queries**********/

@@ -1,0 +1,12 @@
+/*start our recent*/
+
+/*end our recent*/
+
+
+/*start media queries********/
+@media only screen and (max-width: 1199px) {
+    .sidebar-left {
+        display: none;
+    }
+}
+/*end media queries********/

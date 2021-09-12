@@ -1,0 +1,11 @@
+/*start contact style*/
+.contact-details .social-buttons li:first-child {
+    padding-right: 10px;
+}
+
+.contact-map.v1 {
+    direction: ltr;
+    left: 0;
+    right: auto;
+}
+/*end contact style*/

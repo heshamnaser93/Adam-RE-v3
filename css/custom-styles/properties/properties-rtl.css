@@ -1,0 +1,11 @@
+/*start properties style*/
+/*start content side*/
+.nav.item-filter-list li:first-child {
+    margin-right: 0;
+}
+
+.sidebar-content-right .filter-sorting {
+    float: left !important;
+}
+/*end content side*/
+/*end properties style*/

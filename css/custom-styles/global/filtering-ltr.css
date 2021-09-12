@@ -1,0 +1,50 @@
+/*start filtering*/
+.filtering-section .listing-filter .min-input {
+    padding-left: 0;
+    padding-right: 5px;
+}
+
+.filtering-section .listing-filter .max-input {
+    padding-right: 0;
+    padding-left: 5px;
+}
+
+.filtering-section .listing-filter input {
+    margin-left: 0;
+}
+
+.select2-container--open .filtering-select2 {
+    right: 0;
+}
+/*end filtering*/
+
+
+
+/*start of media queries*************/
+@media screen and (min-width: 1200px) {
+    .filtering-section .input-search {
+        padding: 0 10px 0 20px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .filtering-section .input-search:before {
+        left: 20px;
+    }
+
+    .hero__form.v1.filter.listing-filter .dropdown-filter {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .hero__form.v1 .dropdown-filter span:before {
+        right: -15px;
+    }
+
+    .hero__form.v1.filter.listing-filter .dropdown-filter {
+        margin-right: 30px;
+    }
+}
+/*end of media queries*************/

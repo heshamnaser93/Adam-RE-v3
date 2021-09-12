@@ -1,0 +1,34 @@
+/*start agents*/
+.agent-details .sm-line {
+    right: 0;
+    left: auto;
+}
+
+.address-list li {
+    float: right;
+}
+
+.address-list li .rtl-phone {
+    direction: ltr !important;
+    color: #5277A3
+}
+
+.address-list li span {
+    padding-left: 20px;
+    float: right;
+}
+
+.sidebar-content-right .btn.v8 {
+    margin-left: 10px;
+}
+/*end agents*/
+
+
+
+/*start media queries***********/
+@media screen and (max-width: 575px) {
+    .agent-details .btns-box {
+        text-align: left;
+    }
+}
+/*end media queries***********/
